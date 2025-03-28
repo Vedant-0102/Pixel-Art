@@ -270,3 +270,73 @@ input[type="color"]::-webkit-color-swatch {
     height: 25px;
   }
 }
+
+.undo-btn {
+  background-color: #9c27b0;
+}
+
+.undo-btn:hover {
+  background-color: #7b1fa2;
+}
+
+.undo-btn:disabled {
+  background-color: #b39ddb;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.redo-btn {
+  background-color: #ff9800;
+}
+
+.redo-btn:hover {
+  background-color: #fb8c00;
+}
+
+.redo-btn:disabled {
+  background-color: #ffcc80;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+#paint-btn.active {
+  background-color: #2e7d32;
+}
+
+#erase-btn.active {
+  background-color: #e53935;
+}
+
+.container {
+  overflow: auto;
+  max-height: 70vh;
+  max-width: 100%;
+}
+
+.grid-scroll-container {
+  display: inline-block;
+  min-width: 100%;
+}
+
+.slider {
+  min-width: 150px;
+  margin: 0.5rem 0;
+}
+
+.slider input[type="range"] {
+  width: 100%;
+}
+
+.container {
+  max-height: 525px;
+  max-width: 525px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.gridCol {
+  height: 15px;
+  width: 15px;
+}
