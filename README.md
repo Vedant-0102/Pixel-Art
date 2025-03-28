@@ -17,6 +17,7 @@ A modern, interactive Pixel Art Generator built with React. Create stunning pixe
 ### Drawings:
 ![Drawings](https://github.com/Vedant-0102/Pixel-Art/blob/main/public/Drawing.png)
 
+![Drawing 2](https://github.com/Vedant-0102/Pixel-Art/blob/main/public/Drawing-2.jpeg)
 
 ## 🚀 Installation & Setup
 ### Clone the Repository
