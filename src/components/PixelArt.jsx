@@ -10,7 +10,6 @@ const PixelArt = () => {
   const [grid, setGrid] = useState([]);
   const containerRef = useRef(null);
 
-  // Initialize grid
   useEffect(() => {
     createGrid();
   }, []);
