@@ -1,12 +1,44 @@
-# React + Vite
+# Pixel Art Generator 🎨
+A modern, interactive Pixel Art Generator built with React. Create stunning pixel art with customizable grid sizes, color palettes, and export your creations as PNG images!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✨ Features
+- 🖼️ **Custom Grid Sizing** (Up to 35×35 pixels)
+- 🎨 **Color Picker** with Hex Code Support
+- ✏️ **Paint & Erase Modes** for precise editing
+- 💾 **Save as PNG** with right-click functionality
+- 📱 **Fully Responsive** (Works on all devices)
+- 🗑️ **Grid Reset & Clear Options**
 
-Currently, two official plugins are available:
+## 📸 Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🚀 Installation & Setup
+### Clone the Repository
+```sh
+git clone https://github.com/Vedant-0102/Pixel-Art.git
+```
+
+### Install Dependencies
+```sh
+npm install
+```
+
+### Run the Development Server
+```sh
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+```sh
+npm run build
+```
+
+## 🛠️ Technologies Used
+- ⚛️ **React** (Component-based UI)
+- ⚡ **Vite** (Blazing Fast Build Tool)
+- 🎭 **CSS Modules** (Styling)
+
+## 📜 License
+This project is publicly accessible, but the code is not available for reuse or modification.
